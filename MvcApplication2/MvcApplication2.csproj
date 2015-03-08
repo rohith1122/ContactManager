@@ -320,6 +320,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContactManager.Data\ContactManager.Data.csproj">
+      <Project>{3b2eadba-2d19-4052-ae7d-ab9b4e24c1f2}</Project>
+      <Name>ContactManager.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ContactManager.Entity\ContactManager.Entity.csproj">
+      <Project>{d3018230-eb7e-4186-b2b5-7ba1574859b7}</Project>
+      <Name>ContactManager.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
