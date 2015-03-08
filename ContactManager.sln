@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.Data", "ContactManager.Data\ContactManager.Data.csproj", "{3B2EADBA-2D19-4052-AE7D-AB9B4E24C1F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.Entity", "ContactManager.Entity\ContactManager.Entity.csproj", "{D3018230-EB7E-4186-B2B5-7BA1574859B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication2", "MvcApplication2\MvcApplication2.csproj", "{79FB3A41-8AD8-49D7-9236-8ED3C5935E10}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B2EADBA-2D19-4052-AE7D-AB9B4E24C1F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2EADBA-2D19-4052-AE7D-AB9B4E24C1F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2EADBA-2D19-4052-AE7D-AB9B4E24C1F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2EADBA-2D19-4052-AE7D-AB9B4E24C1F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3018230-EB7E-4186-B2B5-7BA1574859B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3018230-EB7E-4186-B2B5-7BA1574859B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3018230-EB7E-4186-B2B5-7BA1574859B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3018230-EB7E-4186-B2B5-7BA1574859B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FB3A41-8AD8-49D7-9236-8ED3C5935E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FB3A41-8AD8-49D7-9236-8ED3C5935E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FB3A41-8AD8-49D7-9236-8ED3C5935E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FB3A41-8AD8-49D7-9236-8ED3C5935E10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
